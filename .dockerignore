@@ -1,0 +1,17 @@
+# อย่าให้ของในเครื่อง dev หลุดเข้า image
+node_modules
+dist
+coverage
+.git
+.github
+.vscode
+.idea
+.agents
+.claude
+*.log
+.DS_Store
+
+# env ของเครื่อง dev (ค่า build ส่งผ่าน --build-arg แทน)
+.env
+.env.*
+!.env.example

@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  // shadcn CLI อ่าน alias จากไฟล์นี้ ถ้าไม่มี paths ตรงนี้ CLI จะสร้างโฟลเดอร์ชื่อ "@" ขึ้นมาจริงๆ
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

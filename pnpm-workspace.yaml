@@ -1,0 +1,6 @@
+# pnpm 11 อ่าน allowBuilds จากไฟล์นี้ (แทน onlyBuiltDependencies เดิม)
+# อนุญาตเฉพาะ package ที่จำเป็นต้องรัน postinstall script เท่านั้น
+allowBuilds:
+  esbuild: true
+  msw: true
+  unrs-resolver: true

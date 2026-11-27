@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev-mock",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev:mock"],
+      "port": 3000
+    }
+  ]
+}

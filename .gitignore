@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build / test output
+dist
+dist-ssr
+coverage
+*.tsbuildinfo
+
+# Environment variables (commit แค่ .env.example)
+.env
+.env.*
+!.env.example
+!.env.mock
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Caches
+.eslintcache
+.prettier-cache
+.vite
+.tanstack
+
+# Editor / OS
+.idea
+.DS_Store
+*.swp
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Agent skills (ติดตั้งจาก skills-lock.json ด้วย: npx skills experimental_install)
+.agents/skills/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "React Template"
+  },
+  "common": {
+    "search": "Search",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "back_to_home": "Back to home",
+    "try_again": "Try again",
+    "loading": "Loading...",
+    "no_data": "No data found",
+    "actions": "Actions",
+    "show_password": "Show password",
+    "hide_password": "Hide password",
+    "select_placeholder": "Select..."
+  },
+  "pagination": {
+    "summary": "Showing {{from}}-{{to}} of {{total}}",
+    "rows_per_page": "Rows per page",
+    "page_of": "Page {{page}} of {{totalPages}}",
+    "previous": "Previous page",
+    "next": "Next page"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "main_menu": "Main menu",
+    "toggle_sidebar": "Toggle sidebar"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "toggle": "Change language",
+    "th": "ไทย",
+    "en": "English"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "description": "Enter your username and password to continue",
+      "username": "Username",
+      "username_placeholder": "e.g. admin",
+      "password": "Password",
+      "remember_me": "Remember username",
+      "submit": "Sign in",
+      "invalid_credentials": "Invalid username or password",
+      "mock_hint": "Mock mode: use username {{username}} / password {{password}}"
+    },
+    "logout": "Log out",
+    "session_expired": "Your session has expired. Please sign in again."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {{name}}",
+    "description": "An example of a page that requires sign-in. Edit it in src/features/dashboard",
+    "total_users": "Total users",
+    "active_users": "Active users",
+    "admins": "Admins"
+  },
+  "users": {
+    "title": "Users",
+    "description": "A full CRUD example: table, search, URL-driven pagination, create/edit form and delete",
+    "search_placeholder": "Search by name or email",
+    "create": "Add user",
+    "create_title": "Add a new user",
+    "edit_title": "Edit user",
+    "detail_title": "User details",
+    "delete_title": "Delete this user?",
+    "delete_description": "\"{{name}}\" will be permanently deleted. This cannot be undone.",
+    "created": "User added",
+    "updated": "Changes saved",
+    "deleted": "User deleted",
+    "not_found": "User not found",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "is_active": "Active",
+      "created_at": "Created"
+    },
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Invalid email address",
+    "min_length": "Must be at least {{count}} characters",
+    "max_length": "Must be at most {{count}} characters",
+    "select_required": "Please select an option"
+  },
+  "error": {
+    "fallback": {
+      "title": "Something went wrong",
+      "description": "The system ran into a temporary problem. Please try again, or contact an administrator if it keeps happening."
+    },
+    "not_found": {
+      "title": "Page not found",
+      "description": "This page may have been moved or deleted."
+    },
+    "api": {
+      "default": "Something went wrong. Please try again.",
+      "network": "Cannot reach the server. Please check your connection.",
+      "timeout": "The server took too long to respond. Please try again.",
+      "bad_request": "The submitted data is invalid.",
+      "forbidden": "You don't have permission to do this.",
+      "not_found": "The requested data was not found.",
+      "server": "Server error. Please try again later."
+    }
+  }
+}
